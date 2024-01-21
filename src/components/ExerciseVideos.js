@@ -3,6 +3,7 @@ import { Typography, Box, Stack } from '@mui/material';
 import Loader from './Loader';
 // import {Scrollbar,VisibilityContext} from 'react-horizontal-scrolling-menu';
 
+
 const ExerciseVideos = ({ exerciseVideos, name }) => {
   if (!exerciseVideos.length) return <Loader />;
 
