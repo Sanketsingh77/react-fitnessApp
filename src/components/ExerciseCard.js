@@ -10,7 +10,6 @@ import { Button, Stack, Typography } from '@mui/material';
 //         }
 //     }
 // });
-
 const ExerciseCard = ({ exercise }) => {
     // const classes = useStyles();
     return (
